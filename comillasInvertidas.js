@@ -1,4 +1,4 @@
-let nombreUsuario = "Kiko"
+let nombreUsuario = "kiko"
 
 console.log(`Hola ${nombreUsuario.toUpperCase()}`);
 

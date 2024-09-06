@@ -8,4 +8,6 @@ frutas.unshift("banana");
 console.log(frutas);
 
 
+
+
 // Esto agregara banana al principio del array llamado frutas, recordar que siempre se coloca el nombre del array y luego el metodo

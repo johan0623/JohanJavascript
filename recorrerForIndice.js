@@ -14,17 +14,18 @@ for (let i = 0; i < frutas.length; i++) {
 // Con el forEach se hace lo mismo que con el codigo de arriba
 // forEach significa para cada elemento del array hazme tal cosa
 
-// frutas.forEach(element => {
-//     console.log(element);
+frutas.forEach(element => {
+    console.log(`El forEach imprime todas las frutas recorridas que son:
+        ${element}`);
     
-// });
+});
 
 
 // recorrer usando for of, recorramos cada letra de un string
 
-// let nombre = "Johan"
+let nombre = "Johan"
 
-// for (letra of nombre) {
-//     console.log(letra);
+for (letra of nombre) {
+    console.log(letra);
 
-// }
+}

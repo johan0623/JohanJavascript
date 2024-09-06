@@ -1,6 +1,7 @@
 // El método pop() elimina el último elemento de un array y lo devuelve. Este método cambia la longitud del array.
-
 const frutas = ["sandia", "pera"];
+console.log(frutas);
+
 frutas.pop();
 
 console.log(frutas);
@@ -15,7 +16,12 @@ console.log(frutas);
 const frutas2 = ["banana", "mango"];
 const frutaEliminada = frutas2.pop();
 
-console.log(frutaEliminada);
+console.log(`Usted acaba de eliminar la fruta: ${frutaEliminada}`);
+
+
+// usamos los backticks para imprimir la variable dentro del console.log();
+// o tambien podemos concatenar usando el +
 
 
 // la variable frutaEliminada almacena el elemento que se elimino y luego lo imprimimos, como resultado saldra mango
+
