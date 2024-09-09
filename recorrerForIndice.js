@@ -29,3 +29,9 @@ for (letra of nombre) {
     console.log(letra);
 
 }
+
+// Hay que tomar en cuenta que el for of es para los array, no debe ser utilizado para objetos
+
+
+
+// Una opcion para objetos es el for in
